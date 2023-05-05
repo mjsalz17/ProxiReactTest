@@ -1,0 +1,278 @@
+.signUpContainerRoot {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 69px 0px 0px 0px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background-color: #786cff;
+  overflow: hidden;
+}
+.signUpBox {
+  width: 100%;
+  position: relative;
+  gap: 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 167px 30px 59px 30px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+.group {
+  width: 173px;
+  position: relative;
+  gap: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0px 0px 110px 0px;
+  box-sizing: border-box;
+}
+.icon {
+  width: 36px;
+  min-width: 0px;
+  min-height: 0px;
+  position: relative;
+  flex-shrink: 0;
+  align-self: center;
+  box-sizing: border-box;
+}
+.icon3 {
+  width: 36px;
+  min-width: 0px;
+  min-height: 0px;
+  position: relative;
+  flex-shrink: 0;
+  margin: 0px 4px 0px 0px;
+  box-sizing: border-box;
+}
+.icon4 {
+  width: 9px;
+  min-width: 0px;
+  min-height: 0px;
+  position: relative;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+.signUpOrLoginText {
+  position: relative;
+  margin: 0px 0px 11px 0px;
+  font-size: 13px;
+  font-family: Poppins;
+  line-height: 17px;
+  text-align: center;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.phoneNumberInput {
+  width: 330px;
+  position: relative;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: center;
+  margin: 0px 0px 11px 0px;
+  border-width: 1px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 23px 0px rgba(9, 44, 76, 0.1);
+  overflow: hidden;
+}
+.phoneInputWrapper {
+  width: 50px;
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: -1px 0px;
+  padding: 14px 15px;
+  border-width: 1px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  box-sizing: border-box;
+}
+.countryCode {
+  position: relative;
+  font-family: Poppins;
+  line-height: 20px;
+  box-sizing: border-box;
+}
+.phoneNumber {
+  position: relative;
+  color: #828282;
+  font-family: Poppins;
+  line-height: 20px;
+  box-sizing: border-box;
+}
+.confirmButtonWrapper {
+  width: 190px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 75px 0px;
+  padding: 0px;
+  padding-top: 16px;
+  padding-right: 61px;
+  padding-bottom: 16px;
+  padding-left: 61px;
+  border-width: 0px;
+  border-radius: 8px;
+  box-sizing: content-box;
+  background-color: #ff5a5f;
+  overflow: hidden;
+  cursor: pointer;
+}
+.confirmButtonWrapper:hover {
+  opacity: 70%;
+}
+.confirmButtonText {
+  position: relative;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: Poppins;
+  line-height: 20px;
+  white-space: pre-wrap;
+  box-sizing: border-box;
+}
+.orConnectUsingText {
+  position: relative;
+  color: #c4c4c4;
+  font-size: 13px;
+  font-family: Poppins;
+  line-height: 17px;
+  text-align: center;
+  white-space: pre-wrap;
+  box-sizing: border-box;
+}
+.linkedInAuthWrapper {
+  width: 190px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0px 0px 4px 0px;
+  padding: 0px;
+  padding-right: 22px;
+  padding-left: 22px;
+  border-width: 0px;
+  box-sizing: content-box;
+  background: none;
+  cursor: pointer;
+}
+.linkedInAuthWrapper:hover {
+  opacity: 70%;
+}
+.linkedInAuthButtonWrapper {
+  width: 146px;
+  position: relative;
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 11px 40px 11px 32px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: #0077b5;
+}
+.linkedInAuthButtonIcon {
+  width: 21px;
+  min-width: 0px;
+  min-height: 0px;
+  position: relative;
+  flex-shrink: 0;
+  align-self: flex-start;
+  margin: 0px 0px 4px 0px;
+  box-sizing: border-box;
+}
+.linkedInAuthButtonText {
+  position: relative;
+  color: #ffffff;
+  font-size: 11px;
+  font-family: Poppins;
+  line-height: 17px;
+  box-sizing: border-box;
+}
+.ssoAuthWrapper {
+  width: 190px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0px;
+  padding-right: 22px;
+  padding-left: 22px;
+  border-width: 0px;
+  box-sizing: content-box;
+  background: none;
+  cursor: pointer;
+}
+.ssoAuthWrapper:hover {
+  opacity: 70%;
+}
+.ssoAuthButtonWrapper {
+  width: 146px;
+  position: relative;
+  gap: 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 19px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: #bdbdbd;
+}
+.ssoAuthButtonInnerWrapper {
+  width: 14px;
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 6px 4px 4px 4px;
+  box-sizing: border-box;
+  background-size: cover;
+  background-image: url("https://file.rendit.io/n/Z3DazprcRB05mtDVnMck.svg");
+}
+.ssoAuthButtonIcon {
+  width: 4px;
+  min-width: 0px;
+  height: 4px;
+  min-height: 0px;
+  left: 2px;
+  top: 5px;
+  position: absolute;
+  box-sizing: border-box;
+}
+.ssoAuthButtonArrow {
+  width: 6px;
+  min-width: 0px;
+  min-height: 0px;
+  position: relative;
+  box-sizing: border-box;
+}
+.ssoAuthButtonText {
+  position: relative;
+  color: #ffffff;
+  font-size: 11px;
+  font-family: Poppins;
+  line-height: 17px;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
